@@ -21,6 +21,5 @@ class App:
     
     def on_draw(self):
         self.window.clear()
-        graphics.setup_projection(self.window)
         graphics.batch.draw()
 
